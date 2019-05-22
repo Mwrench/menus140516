@@ -60,7 +60,7 @@ td {
   width: 200px;
   background-color: #f1f1f1;
   position: fixed;
-  height: 93%;
+  height: 61%;
   overflow: auto;
 }
 
@@ -108,4 +108,83 @@ div.content {
     text-align: center;
     float: none;
   }
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+}
+
+.icons {
+    padding: 50px 100px;
+}
+
+
+.email i {
+    background-color: #222;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.marker i {
+    background-color: #222;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.phone p {
+    display: inline-block;
+    padding: 10px;
+}
+
+.email p {
+    display: inline-block;
+    padding: 10px;
+}
+
+.marker p {
+    display: inline-block;
+    padding: 10px;
+}
+
+.info {
+    padding: 50px 100px;
+}
+
+
+.info-title {
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.info-content {
+    background-color: #222;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 25px;
+    width: 400px;
+}
+
+.info div {
+    display: flex;
+    font-size: 30px;
+}
+
+.info div div {
+    padding: 0px 30px 0px 0px; /* 0 = cima \\ 30 = direita \\ 0 = baixo \\ 0 = esquerda */
+}
+
+.info div i {
+    background-color: #222;
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+}
+
+.k {
+    padding: 212px;
 }
