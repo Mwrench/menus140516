@@ -2,6 +2,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -20,6 +21,16 @@ def p2():
 @app.route('/p3')
 def p3():
     return render_template('p3.html')
+
+
+@app.route('/p4')
+def p4():
+    return render_template('p4.html')
+
+
+@app.route('/p5')
+def p5():
+    return render_template('p5.html')
 
 
 @app.route('/login')
