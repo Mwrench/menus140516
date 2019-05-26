@@ -23,14 +23,8 @@ def p3():
     return render_template('p3.html')
 
 
-@app.route('/p4')
-def p4():
-    return render_template('p4.html')
-
-
-@app.route('/p5')
-def p5():
-    return render_template('p5.html')
+def Jogo_do_Galo():
+    return render_template('Jogo_do_Galo.html')
 
 
 @app.route('/login')
