@@ -60,7 +60,7 @@ td {
   width: 200px;
   background-color: #f1f1f1;
   position: fixed;
-  height: 54%;
+  height: 53%;
   overflow: auto;
 }
 
@@ -68,7 +68,7 @@ td {
 .sidebar a {
   display: block;
   color: black;
-  padding: 16px;
+  padding: 14px;
   text-decoration: none;
 }
 
@@ -190,5 +190,9 @@ div.content {
 }
 
 .back-site{
+    background: cover;
+}
+
+.back-siteg{
     background: cover;
 }
