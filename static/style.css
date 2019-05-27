@@ -60,7 +60,7 @@ td {
   width: 200px;
   background-color: #f1f1f1;
   position: fixed;
-  height: 61%;
+  height: 54%;
   overflow: auto;
 }
 
@@ -187,4 +187,8 @@ div.content {
 
 .k {
     padding: 212px;
+}
+
+.back-site{
+    background: cover;
 }

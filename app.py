@@ -22,7 +22,7 @@ def p2():
 def p3():
     return render_template('p3.html')
 
-
+@app.route('/Jogo_do_Galo')
 def Jogo_do_Galo():
     return render_template('Jogo_do_Galo.html')
 
@@ -38,4 +38,4 @@ def registo():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug = True)

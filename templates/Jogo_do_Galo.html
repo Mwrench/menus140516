@@ -9,13 +9,13 @@ if (galo[q]!=0) return
 if (ajogar==1)
 {
 	galo[q]=1
-	document.images[q].src="imagens/cruz.png"
+	document.images[q].src="static/imagens/cruz.png"
 	ajogar=2
 }
 else 
 {
 	galo[q]=2
-	document.images[q].src="imagens/bola.png"
+	document.images[q].src="static/imagens/bola.png"
 	ajogar=1
 }
 verseganhou()
@@ -52,20 +52,18 @@ location.reload()
 }
 
 </script>
-{% endblock %}
 
-{% block conteudo %}
 <center>
 <h1>Jogo do Galo</h1>
-<a href="JavaScript:move(0)"><img src="imagens/nada.png">
-<a href="JavaScript:move(1)"><img src="imagens/nada.png">
-<a href="JavaScript:move(2)"><img src="imagens/nada.png"><br>
-<a href="JavaScript:move(3)"><img src="imagens/nada.png">
-<a href="JavaScript:move(4)"><img src="imagens/nada.png">
-<a href="JavaScript:move(5)"><img src="imagens/nada.png"><br>
-<a href="JavaScript:move(6)"><img src="imagens/nada.png">
-<a href="JavaScript:move(7)"><img src="imagens/nada.png">
-<a href="JavaScript:move(8)"><img src="imagens/nada.png"><br>
+<a href="JavaScript:move(0)"><img src="static/imagens/nada.png">
+<a href="JavaScript:move(1)"><img src="static/imagens/nada.png">
+<a href="JavaScript:move(2)"><img src="static/imagens/nada.png"><br>
+<a href="JavaScript:move(3)"><img src="static/imagens/nada.png">
+<a href="JavaScript:move(4)"><img src="static/imagens/nada.png">
+<a href="JavaScript:move(5)"><img src="static/imagens/nada.png"><br>
+<a href="JavaScript:move(6)"><img src="static/imagens/nada.png">
+<a href="JavaScript:move(7)"><img src="static/imagens/nada.png">
+<a href="JavaScript:move(8)"><img src="static/imagens/nada.png"><br>
 <br>
 <input type="button" value="Novo Jogo" onclick="reset()"
 onclick=alert("Start")
