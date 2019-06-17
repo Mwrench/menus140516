@@ -1,21 +1,22 @@
 {% extends 'layout.html' %}
 {% block titulo %}
-<title>Iniciar Sessão</title>
+<title>Apagar a Conta</title>
 {% endblock %}
 
 {% block conteudo %}
-<h1>Iniciar Sessão</h1>
+<h2>Eliminar Conta</h2>
 <form method="post">
     <fieldset>
         <legend>Introduza os seus dados</legend>
         <h4>Utilizador</h4>
-        <input type="text" name="usr" required>
-        <p><br></p>
+        <input type='text' name="usr" required>
         <h4>Palavra-Passe</h4>
-        <input type="password" name="pwd" required>
+        <input type='password' name="pwd" required>
         <p><br></p>
-        <input type="submit" value="Iniciar Sessão">
+        <input type="submit" value="Eliminar">
     </fieldset>
 </form>
-{% if erro %}<h4>{{ erro }}</h4>{% endif %}
+{% if erro %}
+<h3>{{ erro }}</h3>
+{% endif %}
 {% endblock %}
