@@ -33,8 +33,7 @@ def alterar(v1, v2):
 
 def existe(v1):
     try:
-        import sqlite3
-        ficheiro = sqlite3.connect('db/Utilizador.db')
+        ficheiro = herokudb()
         db = ficheiro.cursor()
         db.execute("SELECT * FROM usr WHERE usr = %s", (v1,))
         valor = db.fetchone()
